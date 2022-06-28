@@ -1,0 +1,131 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Forum', sans-serif;
+}
+
+#navbar { 
+  height: 100%;
+  width: 350px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  padding-top: 20px;
+  border-right: solid orange 2px;
+
+}
+
+
+.nav-link, .nav-link-home { 
+  padding: 6px 8px 6px 12px;
+  text-decoration: none;
+  font-size: 25px;
+  color: orange;
+  display: block;
+}
+
+.nav-link:hover {
+  color: #f1f1f1;
+}
+
+.nav-link-logo {
+  width: 25%;
+  transform: rotate(-14deg);
+  bottom: 25px;
+  position: absolute;
+  margin-bottom: 20px;
+  margin-left: .8rem;
+}
+
+main {
+  margin-left: 350px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 700px) {
+  #navbar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-bottom: solid orange 2px;
+    border-right: black;
+    
+  }
+  
+  main {margin-left: 0;}
+
+  .nav-link-logo {
+    width: 50px;
+    margin-bottom: 80px;
+    margin-left: .8rem;
+    position: relative;
+    bottom: -60px;
+}
+
+}
+
+
+@media screen and (max-width: 400px) {
+  #navbar{
+    text-align: center;
+    float: none;
+    border-bottom: solid orange 2px;
+    border-right: black;
+    
+    
+    }
+
+    .nav-link-logo {
+    width: 50px;
+    bottom: 5px;
+    position: relative;
+    margin: auto;
+    margin-bottom: 80px;
+    bottom: -60px;
+}
+}
+
+.main-section > header > h1 {
+  text-align: center;
+  color: orange;
+  margin-top: 3rem;
+}
+
+.abstract {
+  margin-top: 4rem;
+}
+
+
+.main-section > header {
+  margin-top: 4rem;
+}
+
+.main-section > p {
+  text-indent: 2rem;
+}
+
+.section-img {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ol > li {
+  margin-left: 2rem;
+  text-indent: 1rem;
+}
+
+ul > li {
+  list-style-type: none;
+
+}
+
+
+
+p > code {
+  margin-left: 2rem;
+  
+}
