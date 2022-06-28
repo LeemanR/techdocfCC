@@ -1,5 +1,5 @@
 
-Technical Documentation freeCodeCamp Project
+
 
 This is my take on freeCodeCamp's technical documentation project.
 
